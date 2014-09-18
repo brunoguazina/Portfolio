@@ -1,4 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Text+Me+One);
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,500,700,900);
 @font-face {
   font-family: 'impactregular';
   src: url("../../font/impact-webfont.eot");
@@ -41,6 +42,14 @@ html, body {
   font-size: 12px;
   padding: 0;
   margin: 0; }
+
+::selection {
+  background: orange;
+  color: #000; }
+
+::-moz-selection {
+  background: orange;
+  color: #000; }
 
 .black {
   color: #000; }
@@ -87,14 +96,14 @@ h2 {
   width: 320px;
   margin: -25px auto 0px auto;
   padding: 0px 5px;
-  transform: rotate(-4deg);
-  -ms-transform: rotate(-4deg);
+  transform: rotate(-5deg);
+  -ms-transform: rotate(-5deg);
   /* IE 9 */
-  -webkit-transform: rotate(-4deg);
+  -webkit-transform: rotate(-5deg);
   /* Safari and Chrome */
-  -o-transform: rotate(-4deg);
+  -o-transform: rotate(-5deg);
   /* Opera */
-  -moz-transform: rotate(-4deg);
+  -moz-transform: rotate(-5deg);
   /* Firefox */ }
 
 .conteudo {
@@ -102,17 +111,18 @@ h2 {
   margin: 0 auto; }
   .conteudo p {
     text-align: center;
-    font-family: 'Text Me One';
+    font-family: 'Roboto', serif;
+    font-weight: 300;
     font-size: 16px;
     color: #555;
     margin: 0; }
 
 .biografia {
-  margin-top: 55px; }
+  margin-top: 85px; }
 
 .redesSociais {
   padding: 0;
-  margin: 40px 0 0 0;
+  margin: 75px;
   text-align: center; }
   .redesSociais li {
     margin: 1px;
@@ -135,5 +145,5 @@ footer {
   bottom: 0;
   width: 100%;
   color: black;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', serif;
   font-size: 12px; }
