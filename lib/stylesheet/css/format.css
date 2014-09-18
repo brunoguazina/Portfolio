@@ -36,7 +36,7 @@
   content: "\e603"; }
 
 html, body {
-  background: url(../../img/background.gif);
+  background: url(../../../img/background.gif);
   border-top: 3px solid rgba(0, 0, 0, 0.3);
   font-size: 12px;
   padding: 0;
