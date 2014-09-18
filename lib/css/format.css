@@ -6,6 +6,7 @@
   font-weight: normal;
   font-style: normal;
 }
+<<<<<<< HEAD
 @font-face {
   font-family: 'icomoon';
   src: url("../font/icomoon.eot?4c7t1p");
@@ -42,6 +43,8 @@
   content: "\e603";
 }
 
+=======
+>>>>>>> 95e3f5a472beab636e472632ad725bc88cd09860
 html, body {
   background: url(../../img/background.gif);
   border-top: 3px solid rgba(0, 0, 0, 0.3);
@@ -58,6 +61,7 @@ html, body {
   color: #797979;
 }
 
+<<<<<<< HEAD
 a {
   color: orange;
   text-decoration: none;
@@ -67,6 +71,8 @@ a:hover {
   text-decoration: underline;
 }
 
+=======
+>>>>>>> 95e3f5a472beab636e472632ad725bc88cd09860
 figure {
   width: 100%;
   margin: 0;
@@ -74,14 +80,22 @@ figure {
 }
 
 img {
+<<<<<<< HEAD
   width: 250px;
+=======
+  width: 260px;
+>>>>>>> 95e3f5a472beab636e472632ad725bc88cd09860
   margin: 20px;
   border-radius: 50%;
   box-shadow: 1px 1px 5px #555;
 }
 
 h1 {
+<<<<<<< HEAD
   letter-spacing: -3px;
+=======
+  letter-spacing: -2px;
+>>>>>>> 95e3f5a472beab636e472632ad725bc88cd09860
   font-weight: normal;
   font-style: normal;
   font-family: 'impactregular', sans-serif;
@@ -113,17 +127,26 @@ h2 {
   /* Firefox */
 }
 
+<<<<<<< HEAD
 .conteudo {
   width: 900px;
   margin: 0 auto;
 }
 .conteudo p {
+=======
+article.conteudo {
+  width: 900px;
+  margin: 65px auto 0 auto;
+}
+article.conteudo p {
+>>>>>>> 95e3f5a472beab636e472632ad725bc88cd09860
   text-align: center;
   font-family: 'Text Me One';
   font-size: 16px;
   color: #555;
   margin: 0;
 }
+<<<<<<< HEAD
 
 .biografia {
   margin-top: 55px;
@@ -162,3 +185,5 @@ footer {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 12px;
 }
+=======
+>>>>>>> 95e3f5a472beab636e472632ad725bc88cd09860
