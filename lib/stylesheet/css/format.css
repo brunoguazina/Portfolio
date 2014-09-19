@@ -38,10 +38,10 @@
 
 html, body {
   background: url(../../../img/background.gif);
-  border-top: 3px solid rgba(0, 0, 0, 0.3);
   font-size: 12px;
   padding: 0;
-  margin: 0; }
+  margin: 0;
+  height: 100%; }
 
 ::selection {
   background: orange;
@@ -50,6 +50,11 @@ html, body {
 ::-moz-selection {
   background: orange;
   color: #000; }
+
+.master {
+  position: relative;
+  width: 100%;
+  min-height: 100%; }
 
 .black {
   color: #000; }
@@ -122,7 +127,7 @@ h2 {
 
 .redesSociais {
   padding: 0;
-  margin: 75px;
+  padding: 75px;
   text-align: center; }
   .redesSociais li {
     margin: 1px;
@@ -141,9 +146,9 @@ h2 {
 footer {
   background: rgba(0, 0, 0, 0.3);
   padding: 10px 0;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
   color: black;
   font-family: 'Roboto', serif;
-  font-size: 12px; }
+  font-size: 12px;
+  position: absolute;
+  bottom: 0;
+  width: 100%; }
