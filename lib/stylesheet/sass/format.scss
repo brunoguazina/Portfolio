@@ -1,7 +1,5 @@
 
-
 @import 'fonte';
-
 
 html, body{
 	background: url(../../../img/background.gif);
@@ -11,7 +9,10 @@ html, body{
 	margin: 0;
 	height: 100%;
 }
-
+.mensagemDeHomologacao{
+	width: 100%;
+	text-align: center;
+}
 ::selection {
 	background: orange;
 	color: #000;
