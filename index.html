@@ -21,7 +21,7 @@
 
 <body>
 	<div class="master">
-		<div class="mensagemDeHomologacao">ambiente de homologação</div>
+		<div id="mensagemDeHomologacao">ambiente de homologação</div>
 <section class="link-scaleup">
 	<figure>
 		<img src="img/BrunoGuazina.jpg" title="Bruno Guazina | User Interface Designer and Front-end Developer">
@@ -51,6 +51,13 @@
 	</div>
 </footer>
 </div>
+<script>
+	var homologacao = 'http://homologacao.brunoguazina.com';
+	if(window.location.origin == homologacao){
+		document.getElementById('mensagemDeHomologacao').style.display="block";
+	}
+
+</script>
 </body>
 
 </html>

@@ -9,9 +9,18 @@ html, body{
 	margin: 0;
 	height: 100%;
 }
-.mensagemDeHomologacao{
-	width: 100%;
+#mensagemDeHomologacao{
+	font-family: 'Text Me One';
+	font-size: 14px;
+	width: 200px;
+	margin: 0 auto;
+	background: #555;
+	padding: 5px;
+	border-bottom-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+	color:#fff;
 	text-align: center;
+	display: none;
 }
 ::selection {
 	background: orange;
