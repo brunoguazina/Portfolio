@@ -53,11 +53,11 @@ html, body {
 
 #mensagemDeHomologacao {
   font-family: 'Text Me One';
-  font-size: 14px;
-  width: 200px;
+  font-size: 15px;
+  width: 280px;
   margin: 0 auto;
-  background: #555;
-  padding: 5px;
+  background: rgba(255, 0, 0, 0.5);
+  padding: 6px;
   border-bottom-right-radius: 8px;
   border-bottom-left-radius: 8px;
   color: #fff;
