@@ -5,13 +5,15 @@
   src: url("../../font/impact-webfont.eot");
   src: url("../../font/impact-webfont.eot?#iefix") format("embedded-opentype"), url("../../font/impact-webfont.woff") format("woff"), url("../../font/impact-webfont.ttf") format("truetype"), url("../../font/impact-webfont.svg#impactregular") format("svg");
   font-weight: normal;
-  font-style: normal; }
+  font-style: normal;
+}
 @font-face {
   font-family: 'icomoon';
   src: url("../../font/icomoon.eot?4c7t1p");
   src: url("../../font/icomoon.eot?#iefix4c7t1p") format("embedded-opentype"), url("../../font/icomoon.woff?4c7t1p") format("woff"), url("../../font/icomoon.ttf?4c7t1p") format("truetype"), url("../../font/icomoon.svg?4c7t1p#icomoon") format("svg");
   font-weight: normal;
-  font-style: normal; }
+  font-style: normal;
+}
 [class^="icon-"], [class*=" icon-"] {
   font-family: 'icomoon';
   speak: none;
@@ -22,26 +24,32 @@
   line-height: 1;
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; }
+  -moz-osx-font-smoothing: grayscale;
+}
 
 .icon-facebook:before {
-  content: "\e600"; }
+  content: "\e600";
+}
 
 .icon-twitter:before {
-  content: "\e601"; }
+  content: "\e601";
+}
 
 .icon-github:before {
-  content: "\e602"; }
+  content: "\e602";
+}
 
 .icon-linkedin:before {
-  content: "\e603"; }
+  content: "\e603";
+}
 
 html, body {
   background: url(../../../img/background.gif);
   font-size: 12px;
   padding: 0;
   margin: 0;
-  height: 100%; }
+  height: 100%;
+}
 
 #mensagemDeHomologacao {
   font-family: 'Text Me One';
@@ -54,42 +62,51 @@ html, body {
   border-bottom-left-radius: 8px;
   color: #fff;
   text-align: center;
-  display: none; }
+  display: none;
+}
 
 ::selection {
   background: orange;
-  color: #000; }
+  color: #000;
+}
 
 ::-moz-selection {
   background: orange;
-  color: #000; }
+  color: #000;
+}
 
 .master {
   position: relative;
   width: 100%;
-  min-height: 100%; }
+  min-height: 100%;
+}
 
 .black {
-  color: #000; }
+  color: #000;
+}
 
 .ash {
-  color: #797979; }
+  color: #797979;
+}
 
 figure {
   width: 100%;
   margin: 0;
-  text-align: center; }
+  text-align: center;
+}
 
 img.thumb {
   width: 250px;
   margin: 20px auto;
   border-radius: 50%;
-  box-shadow: 1px 1px 5px #555; }
+  box-shadow: 1px 1px 5px #555;
+}
 
 img {
   max-width: 700px;
   display: table;
-  margin: 10px auto; }
+  margin: 10px auto;
+}
 
 h1 {
   letter-spacing: -3px;
@@ -99,7 +116,8 @@ h1 {
   text-align: center;
   font-size: 82px;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+}
 
 h2 {
   box-shadow: 1px 1px 2px #555;
@@ -120,41 +138,50 @@ h2 {
   -o-transform: rotate(-5deg);
   /* Opera */
   -moz-transform: rotate(-5deg);
-  /* Firefox */ }
+  /* Firefox */
+}
 
 .conteudo {
   width: 850px;
-  margin: 0 auto; }
-  .conteudo p {
-    text-align: center;
-    font-family: 'Roboto', serif;
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 1.3em;
-    color: #555;
-    margin: 15px 0; }
+  margin: 0 auto;
+}
+.conteudo p {
+  text-align: center;
+  font-family: 'Roboto', serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.3em;
+  color: #555;
+  margin: 15px 0;
+}
 
 .biografia {
-  margin-top: 85px; }
+  margin-top: 85px;
+}
 
 .redesSociais {
   padding: 0;
   padding: 75px;
   margin: 0;
-  text-align: center; }
-  .redesSociais li {
-    margin: 1px;
-    display: inline-table;
-    padding: 8px 10px 5px 10px;
-    background: #555; }
-    .redesSociais li a {
-      color: #fff;
-      font-size: 30px;
-      text-decoration: none; }
-    .redesSociais li:hover {
-      background: orange; }
-      .redesSociais li:hover a {
-        color: black; }
+  text-align: center;
+}
+.redesSociais li {
+  margin: 1px;
+  display: inline-table;
+  padding: 8px 10px 5px 10px;
+  background: #555;
+}
+.redesSociais li a {
+  color: #fff;
+  font-size: 30px;
+  text-decoration: none;
+}
+.redesSociais li:hover {
+  background: orange;
+}
+.redesSociais li:hover a {
+  color: black;
+}
 
 footer {
   background: rgba(0, 0, 0, 0.3);
@@ -164,7 +191,8 @@ footer {
   font-size: 12px;
   position: absolute;
   bottom: 0;
-  width: 100%; }
+  width: 100%;
+}
 
 section {
   position: relative;
@@ -172,7 +200,8 @@ section {
   /* needed for setting pseudo-element z-index */
   overflow: hidden;
   -webkit-backface-visibility: hidden;
-  backface-visibility: hidden; }
+  backface-visibility: hidden;
+}
 
 section a {
   position: relative;
@@ -184,7 +213,8 @@ section a {
   white-space: nowrap;
   text-decoration: none;
   padding: 1px;
-  font-weight: 400; }
+  font-weight: 400;
+}
 
 section a::before,
 section a::after {
@@ -192,11 +222,13 @@ section a::after {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-font-smoothing: antialiased;
-  font-smoothing: antialiased; }
+  font-smoothing: antialiased;
+}
 
 .link-scaleup a {
   color: orange;
-  font-weight: 300; }
+  font-weight: 300;
+}
 
 .link-scaleup a::before {
   position: absolute;
@@ -214,10 +246,12 @@ section a::after {
   -webkit-transition: -webkit-transform 0.2s, opacity 0.2s;
   transition: transform 0.2s, opacity 0.2s;
   -webkit-transform: scale(0);
-  transform: scale(0); }
+  transform: scale(0);
+}
 
 .link-scaleup a:hover::before,
 .link-scaleup a:focus::before {
   opacity: 1;
   -webkit-transform: scale(1);
-  transform: scale(1); }
+  transform: scale(1);
+}
