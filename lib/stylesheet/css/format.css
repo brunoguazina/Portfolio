@@ -142,17 +142,17 @@ h2 {
 }
 
 .conteudo {
-  max-width: 850px;
+  width: 900px;
   margin: 0 auto;
 }
 .conteudo p {
   text-align: center;
   font-family: 'Roboto', serif;
   font-weight: 300;
-  font-size: 16px;
-  line-height: 1.3em;
+  font-size: 17px;
+  line-height: 1.4em;
   color: #555;
-  margin: 15px 0;
+  margin: 0;
 }
 
 .biografia {
