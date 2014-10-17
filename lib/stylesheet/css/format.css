@@ -123,14 +123,14 @@ h2 {
   /* Firefox */ }
 
 .conteudo {
-  width: 900px;
+  width: 850px;
   margin: 0 auto; }
   .conteudo p {
     text-align: center;
     font-family: 'Roboto', serif;
     font-weight: 300;
-    font-size: 17px;
-    line-height: 1.4em;
+    font-size: 16px;
+    line-height: 1.3em;
     color: #555;
     margin: 0; }
 
