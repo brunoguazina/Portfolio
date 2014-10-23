@@ -9,6 +9,63 @@ html, body{
 	margin: 0;
 	height: 100%;
 }
+
+
+.next {
+   position: fixed;
+   right: 0;
+   margin: 200px 0 0 0;
+   height: 150px;
+   background-color: transparent;
+   z-index: 999999;
+  
+   .arrow {
+      margin: 45px 0 0 10px;
+      border-color: transparent transparent transparent #ccc;
+      border-width: 30px;
+      border-style: solid;
+   }
+
+   &:hover {
+       background-color: #ccc;
+       transition: all 0.5s ease;
+
+       .arrow {
+          transition: all 1s ease;
+          border-color: transparent transparent transparent #555;
+          }
+     }
+}
+
+
+.prev {
+	position: fixed;
+	left: 0;
+	margin: 200px 0 0 0;
+	height: 150px;
+	background-color: transparent;
+	z-index: 999999;
+  
+   .arrow {
+      margin: 45px 10px 0 0;
+      border-color: transparent #ccc transparent transparent;
+      border-width: 30px;
+      border-style: solid;
+   }
+
+   &:hover {
+       background-color: #ccc;
+       transition: all 0.5s ease;
+
+       .arrow {
+          transition: all 1s ease;
+          border-color: transparent #555 transparent transparent;
+          }
+     }
+}
+
+
+
 #mensagemDeHomologacao{
 	font-family: 'Text Me One';
 	font-size: 15px;
