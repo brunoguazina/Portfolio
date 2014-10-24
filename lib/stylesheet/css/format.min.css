@@ -1,0 +1,44 @@
+@import url(http://fonts.googleapis.com/css?family=Text+Me+One);
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,500,700,900);
+@font-face{font-family:impactregular;src:url(../../font/impact-webfont.eot);src:url(../../font/impact-webfont.eot?#iefix) format("embedded-opentype"),url(../../font/impact-webfont.woff) format("woff"),url(../../font/impact-webfont.ttf) format("truetype"),url(../../font/impact-webfont.svg#impactregular) format("svg");font-weight:400;font-style:normal}
+@font-face{font-family:icomoon;src:url(../../font/icomoon.eot?4c7t1p);src:url(../../font/icomoon.eot?#iefix4c7t1p) format("embedded-opentype"),url(../../font/icomoon.woff?4c7t1p) format("woff"),url(../../font/icomoon.ttf?4c7t1p) format("truetype"),url(../../font/icomoon.svg?4c7t1p#icomoon) format("svg");font-weight:400;font-style:normal}
+[class*=" icon-"],[class^=icon-]{font-family:icomoon;speak:none;font-style:normal;font-weight:400;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+.icon-facebook:before{content:"\e600"}
+.icon-twitter:before{content:"\e601"}
+.icon-github:before{content:"\e602"}
+.icon-linkedin:before{content:"\e603"}
+body,html{background:url(../../../img/background.gif);font-size:12px;padding:0;margin:0;height:100%}
+.next{position:fixed;right:0;margin:200px 0 0;height:150px;background-color:transparent;z-index:999999}
+.next .arrow{margin:45px 0 0 10px;border-color:transparent transparent transparent #ccc;border-width:30px;border-style:solid}
+.next:hover{background-color:#ccc;transition:all .5s ease}
+.next:hover .arrow{transition:all 1s ease;border-color:transparent transparent transparent #555}
+.prev{position:fixed;left:0;margin:200px 0 0;height:150px;background-color:transparent;z-index:999999}
+.prev .arrow{margin:45px 10px 0 0;border-color:transparent #ccc transparent transparent;border-width:30px;border-style:solid}
+.prev:hover{background-color:#ccc;transition:all .5s ease}
+.prev:hover .arrow{transition:all 1s ease;border-color:transparent #555 transparent transparent}
+#mensagemDeHomologacao{font-family:'Text Me One';font-size:15px;width:280px;margin:0 auto;background:rgba(255,0,0,.5);padding:6px;border-bottom-right-radius:8px;border-bottom-left-radius:8px;color:#fff;text-align:center;display:none}
+::selection{background:orange;color:#000}
+::-moz-selection{background:orange;color:#000}
+.master{position:relative;width:100%;min-height:100%}
+.black{color:#000}
+.ash{color:#797979}
+figure{width:100%;margin:0;text-align:center}
+img.thumb{width:250px;margin:20px auto;border-radius:50%;box-shadow:1px 1px 5px #555}
+img{max-width:700px;display:table;margin:10px auto}
+h1{letter-spacing:-3px;font-weight:400;font-style:normal;font-family:impactregular,sans-serif;text-align:center;font-size:82px;margin:0;padding:0}
+h2{box-shadow:1px 1px 2px #555;font-weight:400;font-style:normal;background:orange;font-family:'Text Me One';text-align:center;font-size:22px;width:320px;margin:-25px auto 0 auto;padding:0 5px;transform:rotate(-5deg);-ms-transform:rotate(-5deg);-webkit-transform:rotate(-5deg);-o-transform:rotate(-5deg);-moz-transform:rotate(-5deg)}
+.conteudo{width:75%;max-width:1100px;margin:0 auto}
+.conteudo p{text-align:center;font-family:Roboto,serif;font-weight:300;font-size:15px;line-height:1.3em;color:#555;margin:15px 0}
+.biografia{margin-top:85px}
+.redesSociais{padding:0;padding:75px;margin:0;text-align:center}
+.redesSociais li{margin:1px;display:inline-table;padding:8px 10px 5px;background:#555}
+.redesSociais li a{color:#fff;font-size:30px;text-decoration:none}
+.redesSociais li:hover{background:orange}
+.redesSociais li:hover a{color:#000}
+footer{background:rgba(0,0,0,.3);padding:10px 0;color:#000;font-family:Roboto,serif;font-size:12px;position:absolute;bottom:0;width:100%}
+section{position:relative;z-index:1;overflow:hidden;-webkit-backface-visibility:hidden;backface-visibility:hidden}
+section a{position:relative;display:inline-block;outline:0;color:#404d5b;vertical-align:bottom;white-space:nowrap;text-decoration:none;padding:1px;font-weight:400}
+section a::after,section a::before{pointer-events:none;-webkit-backface-visibility:hidden;backface-visibility:hidden;-webkit-font-smoothing:antialiased;font-smoothing:antialiased}
+.link-scaleup a{color:orange;font-weight:300}
+.link-scaleup a::before{position:absolute;top:0;left:-5px;z-index:-1;box-sizing:content-box;padding:0 5px;width:100%;height:100%;border-radius:10px;background-color:#fff;content:'';opacity:0;-webkit-transition:-webkit-transform .2s,opacity .2s;transition:transform .2s,opacity .2s;-webkit-transform:scale(0);transform:scale(0)}
+.link-scaleup a:focus::before,.link-scaleup a:hover::before{opacity:1;-webkit-transform:scale(1);transform:scale(1)}
