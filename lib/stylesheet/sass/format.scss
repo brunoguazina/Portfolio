@@ -11,18 +11,19 @@ html, body{
 }
 
 .next {
-   position: fixed;
-   right: 0;
-   margin: 200px 0 0 0;
-   height: 150px;
-   background-color: transparent;
-   z-index: 999999;
+   	position: fixed;
+   	right: 0;
+   	top: 50%;
+   	margin: -50px 0 0 0;
+   	height: 100px;
+   	background-color: transparent;
+   	z-index: 999999;
   
    .arrow {
-      margin: 45px 0 0 10px;
-      border-color: transparent transparent transparent #ccc;
-      border-width: 30px;
-      border-style: solid;
+		margin: 32px 0 0 10px;
+    	border-color: transparent transparent transparent #ccc;
+    	border-width: 20px;
+    	border-style: solid;
    }
 
    &:hover {
@@ -40,15 +41,16 @@ html, body{
 .prev {
 	position: fixed;
 	left: 0;
-	margin: 200px 0 0 0;
-	height: 150px;
+	top: 50%;
+   	margin: -50px 0 0 0;
+	height: 100px;
 	background-color: transparent;
 	z-index: 999999;
   
    .arrow {
-      margin: 45px 10px 0 0;
+      margin: 32px 10px 0 0;
       border-color: transparent #ccc transparent transparent;
-      border-width: 30px;
+      border-width: 20px;
       border-style: solid;
    }
 
