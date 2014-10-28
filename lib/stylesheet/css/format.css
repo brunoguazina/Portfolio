@@ -43,6 +43,15 @@
   content: "\e603";
 }
 
+@media (max-width: 600px) {
+  .nome {
+    font-size: 17px !important;
+  }
+
+  h2 {
+    width: 275px !important;
+  }
+}
 html, body {
   background: url(../../../img/background.gif);
   font-size: 12px;
@@ -156,13 +165,17 @@ img {
   margin: 10px auto;
 }
 
+.nome {
+  font-size: 22px;
+}
+
 h1 {
   letter-spacing: -3px;
   font-weight: normal;
   font-style: normal;
   font-family: 'impactregular', sans-serif;
   text-align: center;
-  font-size: 82px;
+  font-size: 3.72em;
   margin: 0;
   padding: 0;
 }
@@ -174,10 +187,10 @@ h2 {
   background: orange;
   font-family: 'Text Me One';
   text-align: center;
-  font-size: 22px;
+  font-size: 1em;
   width: 320px;
   margin: -25px auto 0px auto;
-  padding: 0px 5px;
+  padding: 0px;
   transform: rotate(-5deg);
   -ms-transform: rotate(-5deg);
   /* IE 9 */
