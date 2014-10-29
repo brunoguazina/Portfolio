@@ -43,19 +43,6 @@
   content: "\e603";
 }
 
-@media (max-width: 600px) {
-  .nome {
-    font-size: 15px !important;
-  }
-
-  h2 {
-    width: 230px !important;
-  }
-
-  img.thumb {
-    width: 210px !important;
-  }
-}
 html, body {
   background: url(../../../img/background.gif);
   font-size: 12px;
@@ -320,4 +307,18 @@ section a::after {
   opacity: 1;
   -webkit-transform: scale(1);
   transform: scale(1);
+}
+
+@media (max-width: 600px) {
+  .nome {
+    font-size: 15px;
+  }
+
+  h2 {
+    width: 230px;
+  }
+
+  img.thumb {
+    width: 210px;
+  }
 }

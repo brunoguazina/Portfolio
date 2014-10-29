@@ -1,6 +1,5 @@
 
 @import '_fonte';
-@import '_mediaQuerie';
 
 
 html, body{
@@ -273,5 +272,9 @@ section a::after {
 	-webkit-transform: scale(1);
 	transform: scale(1);
 }
+
+
+@import '_mediaQuerie';
+
 
 
