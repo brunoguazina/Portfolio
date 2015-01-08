@@ -140,10 +140,10 @@ h2{
 	margin: -25px auto 0px auto;
 	padding: 0px;
 	transform: rotate(-5deg);
-	-ms-transform: rotate(-5deg); /* IE 9 */
-	-webkit-transform: rotate(-5deg); /* Safari and Chrome */
-	-o-transform: rotate(-5deg); /* Opera */
-	-moz-transform: rotate(-5deg); /* Firefox */
+	-ms-transform: rotate(-5deg);
+	-webkit-transform: rotate(-5deg);
+	-o-transform: rotate(-5deg);
+	-moz-transform: rotate(-5deg);
 }
 
 
@@ -208,7 +208,7 @@ footer{
 
 section {
 	position: relative;
-	z-index: 1; /* needed for setting pseudo-element z-index */
+	z-index: 1; 
 	overflow: hidden;
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;

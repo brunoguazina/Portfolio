@@ -157,13 +157,9 @@ h2 {
   padding: 0px;
   transform: rotate(-5deg);
   -ms-transform: rotate(-5deg);
-  /* IE 9 */
   -webkit-transform: rotate(-5deg);
-  /* Safari and Chrome */
   -o-transform: rotate(-5deg);
-  /* Opera */
-  -moz-transform: rotate(-5deg);
-  /* Firefox */ }
+  -moz-transform: rotate(-5deg); }
 
 .conteudo {
   width: 75%;
@@ -213,7 +209,6 @@ footer {
 section {
   position: relative;
   z-index: 1;
-  /* needed for setting pseudo-element z-index */
   overflow: hidden;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden; }
