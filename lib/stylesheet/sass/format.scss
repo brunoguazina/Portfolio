@@ -195,7 +195,6 @@ h2{
 
 
 footer{
-	background: transparentize(black, 0.7);
 	padding: 10px 0;
 	color: black;
 	font-family: 'Roboto', serif;
@@ -203,6 +202,10 @@ footer{
 	position: absolute;
 	bottom: 0;
 	width: 100%;
+
+	.conteudo{
+		text-align: center;
+	}
 }
 
 

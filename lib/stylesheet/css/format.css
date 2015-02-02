@@ -233,7 +233,6 @@ h2 {
 }
 
 footer {
-  background: rgba(0, 0, 0, 0.3);
   padding: 10px 0;
   color: black;
   font-family: 'Roboto', serif;
@@ -241,6 +240,9 @@ footer {
   position: absolute;
   bottom: 0;
   width: 100%;
+}
+footer .conteudo {
+  text-align: center;
 }
 
 section {
