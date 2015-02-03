@@ -234,15 +234,19 @@ h2 {
 
 footer {
   padding: 10px 0;
-  color: black;
-  font-family: 'Roboto', serif;
-  font-size: 12px;
   position: absolute;
   bottom: 0;
   width: 100%;
 }
 footer .conteudo {
   text-align: center;
+}
+footer .conteudo p {
+  margin: 0;
+  padding: 2px 0 0 0;
+  color: rgba(0, 0, 0, 0.3);
+  font-family: 'Roboto', serif;
+  font-size: 13px;
 }
 
 section {

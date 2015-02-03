@@ -171,12 +171,14 @@ h2{
 	padding: 75px;
 	margin: 0;
 	text-align: center;
-
+	
 	li{
 		margin: 1px;
 		display: inline-table;
 		padding: 8px 10px 5px 10px;
 		background: #555;
+		
+
 		a{
 			color: #fff;
 			font-size: 30px;
@@ -196,16 +198,20 @@ h2{
 
 footer{
 	padding: 10px 0;
-	color: black;
-	font-family: 'Roboto', serif;
-	font-size: 12px;
 	position: absolute;
 	bottom: 0;
 	width: 100%;
 
-
 	.conteudo{
 		text-align: center;
+
+		p{	
+			margin: 0;
+			padding: 2px 0 0 0;
+			color: transparentize(black, 0.7);
+			font-family: 'Roboto', serif;
+			font-size: 13px;
+		}
 	}
 }
 
