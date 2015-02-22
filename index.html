@@ -11,6 +11,7 @@
 	<meta name="author" content="Bruno Guazina" />
 	<link rel="me" href="https://plus.google.com/u/0/+BrunoGuazinaDesigner/posts"/>
 	<link rel="stylesheet" href="lib/stylesheet/css/format.css">
+	<script src="lib/js/jquery-1.11.2.min.js"></script>
 
 	<!–- Twitter -->
 	<meta name="twitter:card" content="summary_large_image">
@@ -47,6 +48,22 @@
 </head>
 
 <body>
+
+<div class="dialogoDeContato" style="display: none;">
+<span class="fechar">x</span>
+	<div class="conteudoDeContato">
+		<span>Fale comigo!</span>
+		<span class="telefone">(67) 9936-6393</span>
+		<span  class="telefone">(11) 99289-6393</span>
+		<span  class="email">bruno@guazina.com</span>
+	</div>
+</div>
+
+<div class="contato">
+	<div class="botao">contato</div>
+	<div class="conteudo" style="display: none">+55 67 9936-6393</div>
+</div>
+
 <div class="master">
 
 <div id="mensagemDeHomologacao">ambiente de homologação</div>
@@ -91,7 +108,20 @@
 	if(window.location.origin == homologacao){
 		document.getElementById('mensagemDeHomologacao').style.display="block";
 	}
-	console.log("Bruno Guazina - UI/UX Designer");
+
+
+	var alturaDaPagina = $( document ).height();
+	$(".dialogoDeContato").height(alturaDaPagina);
+	$(".fechar").on("click", function(){
+		$(".dialogoDeContato").hide();
+	});
+	$(".botao").on("click", function(){
+		$(".dialogoDeContato").show();
+	});
+
+	console.log("         BRUNO GUAZINA            ");
+	console.log("    <!-- UI/UX Designer -->       ");
+	console.log("(67) 9936-6393 / (11) 99289-6392  ");
 </script>
 
 </body>

@@ -1,7 +1,6 @@
 
 @import '_fonte';
 
-
 html, body{
 	background: url(../../../img/background.gif);
 	//border-top: 3px solid transparentize(black, 0.7);
@@ -38,7 +37,6 @@ html, body{
      }
 }
 
-
 .prev {
 	position: fixed;
 	left: 0;
@@ -64,6 +62,108 @@ html, body{
           border-color: transparent #555 transparent transparent;
           }
      }
+}
+
+.contato {
+	z-index: 888888;
+	position:fixed;
+	right: -45px;
+	top: 50%;
+	margin-top: -60px;
+	cursor: pointer;
+	
+	.botao{
+		font-family: 'Text Me One';
+		font-size: 20px;
+		width: 120px;
+		text-align: center;
+		display: inline-table;
+		padding: 5px 0;
+		background: #555;
+		color: #fff;
+
+		border-top-left-radius: 5px;
+		border-top-right-radius: 5px;
+	
+		-webkit-box-shadow: 0 0 4px 0 #555555;
+		box-shadow: 0 0 4px 0 #555555;
+
+		transform: rotate(-90deg);
+		-ms-transform: rotate(-90deg);
+		-webkit-transform: rotate(-90deg);
+		-o-transform: rotate(-90deg);
+		-moz-transform: rotate(-90deg);
+		&::before{
+			font-family: 'icomoon';
+			font-size: 14px;
+			margin: 0 8px 0 0;
+			content: "\e942"
+		}
+		&:hover{
+			background-color: transparentize(#555, 0.2)
+		}
+
+	}
+}
+
+.dialogoDeContato{
+	background-color: transparentize(#f1f1f1, 0.08);
+	position: fixed;
+	width: 100%;
+	z-index: 999999;
+	
+	.fechar{
+		font-family: 'Text Me One';
+		font-weight: 700;
+		cursor: pointer;
+		text-align: center;
+		padding: 10px 15px;
+		color: #000;
+		font-size: 22px;
+		background-color: orange;
+		position: fixed;
+		&:hover{
+			background-color: transparentize(orange, 0.2);
+		}
+		
+	}
+
+	.conteudoDeContato{
+		// background-color: #fff;
+		width: 400px;
+		height: 400px;
+		position: fixed;
+		left: 50%;
+		top: 50%;
+		margin-left: -200px;
+		margin-top: -200px;
+
+		span{
+			font-family: 'impactregular', sans-serif;
+			font-size: 28px;
+			text-align: center;
+			color: #555;
+			display: block;
+			margin: 10px 0;
+
+			&:first-child{
+			font-size: 55px;
+			margin-bottom: 25px;
+			}
+			&.telefone::before{
+				font-family: 'icomoon';
+				font-size: 28px;
+				margin: 0 8px 0 0;
+				content: "\e942";
+			}
+			&.email::before{
+				font-family: 'icomoon';
+				font-size: 28px;
+				margin: 0 8px 0 0;
+				content: "\e600";	
+			}
+		}
+	}
 }
 
 #mensagemDeHomologacao{
@@ -161,10 +261,10 @@ h2{
 		margin: 15px 0;
 	}
 }
+
 .biografia{
 	margin-top: 85px;
 }
-
 
 .redesSociais{
 	padding: 0;
@@ -195,7 +295,6 @@ h2{
 	}
 }
 
-
 footer{
 	padding: 10px 0;
 	position: absolute;
@@ -215,7 +314,6 @@ footer{
 	}
 }
 
-
 section {
 	position: relative;
 	z-index: 1; 
@@ -223,7 +321,6 @@ section {
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
 }
-
 
 section a {
 	position: relative;
@@ -239,7 +336,6 @@ section a {
 	font-weight: 400;
 }
 
-
 section a::before,
 section a::after {
 	pointer-events: none;
@@ -249,12 +345,10 @@ section a::after {
 	font-smoothing: antialiased;
 }
 
-
 .link-scaleup a {
 	color: orange;
 	font-weight: 300;
 }
-
 
 .link-scaleup a::before {
 	position: absolute;
@@ -275,14 +369,12 @@ section a::after {
 	transform: scale(0);
 }
 
-
 .link-scaleup a:hover::before,
 .link-scaleup a:focus::before {
 	opacity: 1;
 	-webkit-transform: scale(1);
 	transform: scale(1);
 }
-
 
 @import '_mediaQuerie';
 

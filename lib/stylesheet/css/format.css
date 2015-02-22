@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url(http://fonts.googleapis.com/css?family=Text+Me+One);
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,300,500,700,900);
 @font-face {
@@ -27,20 +28,32 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-facebook:before {
+.icon-envelope:before {
   content: "\e600";
 }
 
+.icon-phone:before {
+  content: "\e942";
+}
+
+.icon-cross:before {
+  content: "\ea0f";
+}
+
+.icon-facebook:before {
+  content: "\ea8c";
+}
+
 .icon-twitter:before {
-  content: "\e601";
+  content: "\ea91";
 }
 
 .icon-github:before {
-  content: "\e602";
+  content: "\eab4";
 }
 
 .icon-linkedin:before {
-  content: "\e603";
+  content: "\eac9";
 }
 
 html, body {
@@ -97,6 +110,97 @@ html, body {
 .prev:hover .arrow {
   transition: all 1s ease;
   border-color: transparent #555 transparent transparent;
+}
+
+.contato {
+  z-index: 888888;
+  position: fixed;
+  right: -45px;
+  top: 50%;
+  margin-top: -60px;
+  cursor: pointer;
+}
+.contato .botao {
+  font-family: 'Text Me One';
+  font-size: 20px;
+  width: 120px;
+  text-align: center;
+  display: inline-table;
+  padding: 5px 0;
+  background: #555;
+  color: #fff;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  -webkit-box-shadow: 0 0 4px 0 #555555;
+  box-shadow: 0 0 4px 0 #555555;
+  transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+}
+.contato .botao::before {
+  font-family: 'icomoon';
+  font-size: 14px;
+  margin: 0 8px 0 0;
+  content: "";
+}
+.contato .botao:hover {
+  background-color: rgba(85, 85, 85, 0.8);
+}
+
+.dialogoDeContato {
+  background-color: rgba(241, 241, 241, 0.92);
+  position: fixed;
+  width: 100%;
+  z-index: 999999;
+}
+.dialogoDeContato .fechar {
+  font-family: 'Text Me One';
+  font-weight: 700;
+  cursor: pointer;
+  text-align: center;
+  padding: 10px 15px;
+  color: #000;
+  font-size: 22px;
+  background-color: orange;
+  position: fixed;
+}
+.dialogoDeContato .fechar:hover {
+  background-color: rgba(255, 165, 0, 0.8);
+}
+.dialogoDeContato .conteudoDeContato {
+  width: 400px;
+  height: 400px;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  margin-left: -200px;
+  margin-top: -200px;
+}
+.dialogoDeContato .conteudoDeContato span {
+  font-family: 'impactregular', sans-serif;
+  font-size: 28px;
+  text-align: center;
+  color: #555;
+  display: block;
+  margin: 10px 0;
+}
+.dialogoDeContato .conteudoDeContato span:first-child {
+  font-size: 55px;
+  margin-bottom: 25px;
+}
+.dialogoDeContato .conteudoDeContato span.telefone::before {
+  font-family: 'icomoon';
+  font-size: 28px;
+  margin: 0 8px 0 0;
+  content: "\e942";
+}
+.dialogoDeContato .conteudoDeContato span.email::before {
+  font-family: 'icomoon';
+  font-size: 28px;
+  margin: 0 8px 0 0;
+  content: "\e600";
 }
 
 #mensagemDeHomologacao {

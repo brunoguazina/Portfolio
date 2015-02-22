@@ -38,15 +38,32 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
-.icon-facebook:before {
+.icon-envelope:before {
 	content: "\e600";
 }
+
+.icon-phone:before {
+	content: "\e942";
+}
+
+.icon-cross:before {
+	content: "\ea0f";
+}
+
+.icon-facebook:before {
+	content: "\ea8c";
+}
+
 .icon-twitter:before {
-	content: "\e601";
+	content: "\ea91";
 }
+
 .icon-github:before {
-	content: "\e602";
+	content: "\eab4";
 }
+
 .icon-linkedin:before {
-	content: "\e603";
+	content: "\eac9";
 }
+
+
