@@ -74,7 +74,7 @@ html, body{
 	
 	.botao{
 		font-family: 'Text Me One';
-		font-size: 20px;
+		font-size: 22px;
 		width: 120px;
 		text-align: center;
 		display: inline-table;
@@ -95,7 +95,7 @@ html, body{
 		-moz-transform: rotate(-90deg);
 		&::before{
 			font-family: 'icomoon';
-			font-size: 14px;
+			font-size: 16px;
 			margin: 0 8px 0 0;
 			content: "\e942"
 		}
@@ -113,8 +113,6 @@ html, body{
 	z-index: 999999;
 	
 	.fechar{
-		font-family: 'Text Me One';
-		font-weight: 700;
 		cursor: pointer;
 		text-align: center;
 		padding: 10px 15px;
@@ -122,6 +120,11 @@ html, body{
 		font-size: 22px;
 		background-color: orange;
 		position: fixed;
+		&::before{
+		font-family: 'icomoon';
+		font-size: 22px;
+		content: "\ea0f";	
+		}
 		&:hover{
 			background-color: transparentize(orange, 0.2);
 		}
@@ -140,7 +143,7 @@ html, body{
 
 		span{
 			font-family: 'impactregular', sans-serif;
-			font-size: 28px;
+			font-size: 30px;
 			text-align: center;
 			color: #555;
 			display: block;
