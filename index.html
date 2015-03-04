@@ -112,10 +112,10 @@
 
 	var alturaDaPagina = $( document ).height();
 	$(".dialogoDeContato").height(alturaDaPagina);
-	$(".fechar").on("click", function(){
+	$(".fechar").click(function(){
 		$(".dialogoDeContato").hide();
 	});
-	$(".botao").on("click", function(){
+	$(".botao").click(function(){
 		$(".dialogoDeContato").show();
 	});
 
