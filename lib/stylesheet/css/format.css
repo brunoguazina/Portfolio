@@ -311,6 +311,10 @@ h2 {
   margin: 15px 0;
 }
 
+.portfolio {
+  margin: 65px auto 0 auto !important;
+}
+
 .biografia {
   margin-top: 85px;
 }
