@@ -5,7 +5,7 @@
 	<meta charset="UTF-8">
 	<meta name="language" content="pt-br">
 	<meta name="viewport" content="width=device-width">
-	<title>Bruno Guazina | User Interface Designer and Front-end Developer</title>
+	<title>Bruno Guazina | User Interface and Experience Designer</title>
 	<meta name="description" content="Bruno Guazina | UI/UX Designer">
 	<meta name="keywords" content="HTML, CSS, SASS, LESS, Pré-Processadores, JavaScript, Front-end, Padroes Web, UI, UX Design, Desenvolvimento Web, Design, Interface">
 	<meta name="author" content="Bruno Guazina" />
@@ -75,7 +75,7 @@
 
 	<article  class="nome">
 		<h1><span class="black">BRUNO</span><span class="ash">GUAZINA</span></h1>
-		<h2>&lsaquo;!-- User Interface Designer --&rsaquo;</h2>
+		<h2>&lsaquo;!-- UI/UX Designer --&rsaquo;</h2>
 	</article>
 
 	<article class="conteudo biografia">
@@ -105,13 +105,14 @@
 
 <script>
 	var homologacao = 'http://homologacao.brunoguazina.com';
+	
 	if(window.location.origin == homologacao){
 		document.getElementById('mensagemDeHomologacao').style.display="block";
 	}
 
-
 	var alturaDaPagina = $( document ).height();
 	$(".dialogoDeContato").height(alturaDaPagina);
+	
 	$(".fechar").click(function(){
 		$(".dialogoDeContato").hide();
 	});
