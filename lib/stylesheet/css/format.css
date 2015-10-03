@@ -251,10 +251,9 @@ figure {
 }
 
 img.thumb {
-  width: 310px;
+  width: 375px;
   margin: 20px auto;
   border-radius: 50%;
-  box-shadow: 1px 1px 5px #555;
 }
 
 img {
@@ -279,14 +278,14 @@ h1 {
 }
 
 h2 {
-  box-shadow: 1px 1px 2px #555;
+  box-shadow: 1px 1px 4px -2px #555;
   font-weight: normal;
   font-style: normal;
   background: orange;
   font-family: 'Text Me One';
   text-align: center;
-  font-size: 1em;
-  width: 260px;
+  font-size: 1.2em;
+  width: 280px;
   margin: -25px auto 0px auto;
   padding: 0px;
   transform: rotate(-5deg);
@@ -422,12 +421,17 @@ section a::after {
 }
 
 @media (max-width: 600px) {
+  html, body {
+    font-size: 10px;
+  }
+
   .nome {
     font-size: 15px;
   }
 
   h2 {
-    width: 230px;
+    width: 200px;
+    margin: -20px auto 0px auto;
   }
 
   img.thumb {

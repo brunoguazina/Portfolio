@@ -1,11 +1,14 @@
 
 @media (max-width: 600px) {
-
+	html, body {
+		font-size: 10px;
+	}
 	.nome{
 		font-size: 15px;
 	}
 	h2{
-		width: 230px;
+		width: 200px;
+		margin: -20px auto 0px auto;
 	}
 	img.thumb{
 		width: 210px;
