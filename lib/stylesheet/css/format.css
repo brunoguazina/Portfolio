@@ -28,34 +28,33 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-envelope:before {
-  content: "\e600";
-}
-
 .icon-phone:before {
   content: "\e942";
 }
-
+.icon-bubbles:before {
+  content: "\e96c";
+}
 .icon-cross:before {
   content: "\ea0f";
 }
-
-.icon-facebook:before {
-  content: "\ea8c";
-}
-
 .icon-twitter:before {
-  content: "\ea91";
+  content: "\e904";
 }
-
 .icon-github:before {
-  content: "\eab4";
+  content: "\e900";
 }
-
+.icon-instagram:before {
+  content: "\e901";
+}
 .icon-linkedin:before {
-  content: "\eac9";
+  content: "\e902";
 }
-
+.icon-facebook:before {
+  content: "\e903";
+}
+.icon-mail:before {
+  content: "\e905";
+}
 html, body {
   background: url(../../../img/background.gif);
   font-size: 12px;
@@ -123,7 +122,7 @@ html, body {
 .contato .botao {
   font-family: 'Text Me One';
   font-size: 22px;
-  width: 120px;
+  width: 130px;
   text-align: center;
   display: inline-table;
   padding: 5px 0;
@@ -143,7 +142,7 @@ html, body {
   font-family: 'icomoon';
   font-size: 16px;
   margin: 0 8px 0 0;
-  content: "";
+  content: "\e96c";
 }
 .contato .botao:hover {
   background-color: rgba(85, 85, 85, 0.8);
@@ -203,7 +202,7 @@ html, body {
   font-family: 'icomoon';
   font-size: 28px;
   margin: 0 8px 0 0;
-  content: "\e600";
+  content: "\e905";
 }
 
 #mensagemDeHomologacao {
