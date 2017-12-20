@@ -28,18 +28,6 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-phone:before {
-  content: "\e942";
-}
-.icon-bubbles:before {
-  content: "\e96c";
-}
-.icon-cross:before {
-  content: "\ea0f";
-}
-.icon-twitter:before {
-  content: "\e904";
-}
 .icon-github:before {
   content: "\e900";
 }
@@ -52,9 +40,26 @@
 .icon-facebook:before {
   content: "\e903";
 }
+.icon-twitter:before {
+  content: "\e904";
+}
 .icon-mail:before {
   content: "\e905";
 }
+.icon-phone:before {
+  content: "\e942";
+}
+.icon-bubbles:before {
+  content: "\e96c";
+}
+.icon-cross:before {
+  content: "\ea0f";
+}
+.icon-behance:before {
+  content: "\eaa8";
+}
+
+
 html, body {
   background: url(../../../img/background.gif);
   font-size: 12px;
