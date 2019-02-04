@@ -38,32 +38,39 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
-.icon-envelope:before {
-	content: "\e600";
-}
-
-.icon-phone:before {
+  .icon-github:before {
+	content: "\e900";
+  }
+  .icon-instagram:before {
+	content: "\e901";
+  }
+  .icon-linkedin:before {
+	content: "\e902";
+  }
+  .icon-facebook:before {
+	content: "\e903";
+  }
+  .icon-twitter:before {
+	content: "\e904";
+  }
+  .icon-mail:before {
+	content: "\e905";
+  }
+  .icon-phone:before {
 	content: "\e942";
-}
-
-.icon-cross:before {
+  }
+  .icon-bubbles:before {
+	content: "\e96c";
+  }
+  .icon-cross:before {
 	content: "\ea0f";
-}
-
-.icon-facebook:before {
-	content: "\ea8c";
-}
-
-.icon-twitter:before {
-	content: "\ea91";
-}
-
-.icon-github:before {
-	content: "\eab4";
-}
-
-.icon-linkedin:before {
-	content: "\eac9";
-}
+  }
+  .icon-behance:before {
+	content: "\eaa8";
+  }
+  .icon-medium:before {
+	content: "\e906";
+  }
+  
 
 

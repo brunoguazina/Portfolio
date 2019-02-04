@@ -58,6 +58,9 @@
 .icon-behance:before {
   content: "\eaa8";
 }
+.icon-medium:before {
+  content: "\e906";
+}
 
 
 html, body {
