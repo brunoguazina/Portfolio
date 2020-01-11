@@ -27,24 +27,32 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
-.icon-github:before {
+.icon-wordpress:before {
+  content: "\e908";
+}
+.icon-document:before {
   content: "\e900";
 }
-.icon-instagram:before {
+.icon-github:before {
   content: "\e901";
 }
-.icon-linkedin:before {
+.icon-instagram:before {
   content: "\e902";
 }
-.icon-facebook:before {
+.icon-linkedin:before {
   content: "\e903";
 }
-.icon-twitter:before {
+.icon-facebook:before {
   content: "\e904";
 }
-.icon-mail:before {
+.icon-twitter:before {
   content: "\e905";
+}
+.icon-mail:before {
+  content: "\e906";
+}
+.icon-medium:before {
+  content: "\e907";
 }
 .icon-phone:before {
   content: "\e942";
@@ -57,9 +65,6 @@
 }
 .icon-behance:before {
   content: "\eaa8";
-}
-.icon-medium:before {
-  content: "\e906";
 }
 
 
